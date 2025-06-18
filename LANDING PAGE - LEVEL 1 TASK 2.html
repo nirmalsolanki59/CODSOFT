@@ -1,0 +1,239 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page LEVEL 1, TASK 2</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }body {
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(90deg, #ff7eb3, #ff758c);
+  color: white;
+  padding: 25px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+nav a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1531297484001-80022131f5a1') no-repeat center center/cover;
+  padding: 120px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: auto;
+}
+
+.buttons {
+  margin-top: 25px;
+}
+
+.buttons a {
+  background: #fff;
+  color: #ff4081;
+  padding: 12px 22px;
+  border-radius: 30px;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.buttons a:hover {
+  background: #ff4081;
+  color: #fff;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #fad0c4, #ffd1ff);
+}
+
+.feature-box {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 30px;
+  margin: 20px;
+  max-width: 280px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.feature-box:hover {
+  transform: translateY(-10px);
+}
+
+.feature-box h3 {
+  color: #d81b60;
+  margin-bottom: 15px;
+}
+
+.about {
+  padding: 60px 20px;
+  background: #fff3f3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-text {
+  max-width: 500px;
+  margin: 20px;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  color: #ff4081;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about img {
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.services {
+  background: linear-gradient(to right, #ffe2e2, #fccde2);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 2.2rem;
+  color: #c2185b;
+  margin-bottom: 40px;
+}
+
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.service-card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 25px;
+  width: 250px;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.service-card h4 {
+  color: #ec407a;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 0.95rem;
+}
+
+footer {
+  background: #111;
+  color: #eee;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nirmal's Creative Agency</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#features">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>  <section class="hero">
+    <h1>Build Your Dream Project</h1>
+    <p>Start your web development journey with a vibrant, beginner-friendly and scrollable landing page project.</p>
+    <div class="buttons">
+      <a href="#">Explore More</a>
+      <a href="#">Start Now</a>
+    </div>
+  </section>  <section class="features" id="features">
+    <div class="feature-box">
+      <h3>🚀 Launch Business</h3>
+      <p>Practice layouts that mimic real business landing pages.</p>
+    </div>
+    <div class="feature-box">
+      <h3>💬 Online Support</h3>
+      <p>Use only HTML and CSS to understand all design parts clearly.</p>
+    </div>
+    <div class="feature-box">
+      <h3>🕐 Time Efficient</h3>
+      <p>Complete this landing page in just a few hours!</p>
+    </div>
+  </section>  <section class="about" id="about">
+    <div class="about-text">
+      <h2>About This Project</h2>
+      <p>This project is created as part of the CODSOFT Internship — built with creativity using only HTML and CSS. It’s dynamic, scrollable, and beginner-friendly — a vibrant way to apply and showcase my front-end web development skills!</p>
+      <a href="#" style="padding: 10px 20px; background: #ff4081; color: white; border-radius: 25px; text-decoration: none;">Read More</a>
+    </div>
+    <img src="nirmal.jpg" alt="Student Design">
+  </section>  <section class="services">
+    <h2>What You Learn</h2>
+    <div class="service-cards">
+      <div class="service-card">
+        <h4>🎨 Color Schemes</h4>
+        <p>Understand how to use gradients and solid colors effectively.</p>
+      </div>
+      <div class="service-card">
+        <h4>🖥 Responsive Design</h4>
+        <p>Learn layout building using only HTML and CSS blocks.</p>
+      </div>
+      <div class="service-card">
+        <h4>✨ Modern UI</h4>
+        <p>Practice UI with shadows, hover effects and soft corners.</p>
+      </div>
+    </div>
+  </section>  <footer>
+    <p>Made by Nirmal | CODSOFT | 2025</p>
+  </footer>
+</body>
+</html>
